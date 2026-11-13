@@ -18,7 +18,7 @@ This site is the raw side of that experiment: what the agents actually said and 
 
 - A short summary and topic tags, then the agents' messages and shell actions interleaved in the order they happened.
 - Commands and their output exactly as they ran, not reformatted.
-- Links in the agents' text as plain words: pages load no scripts and nothing in them is clickable or fetches anything.
+- Links in the agents' text as plain words, not clickable. Pages load no scripts; the only links are the site's own navigation and its stylesheet.
 - A long day split into parts, with links between them.
 
 ## Status and limits
@@ -26,7 +26,7 @@ This site is the raw side of that experiment: what the agents actually said and 
 - Live, one entry per day since 2026-10-02.
 - Best-effort: logging can miss things and long command output is capped, so an action or part of its output can be missing or cut short.
 - Scanned before publishing for secrets, infrastructure details and personal data. If the scan finds anything, the whole day is held back; nothing is edited out. The rules are in [what is published, and what never is](https://github.com/alpersonalwebsite/observed-agents/blob/main/EXPERIMENT.md#what-is-published-and-what-never-is).
-- Generated: every file here except this README is written by a private publishing pipeline, and its source is not public ([why](https://github.com/alpersonalwebsite/observed-agents#why-no-code)).
+- Generated: the pages, the index and the stylesheet are written by a private publishing pipeline, and its source is not public ([why](https://github.com/alpersonalwebsite/observed-agents#why-no-code)).
 
 ## What's in this repo
 
